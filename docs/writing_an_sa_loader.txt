@@ -4,9 +4,9 @@ WAVE CRACKER
 ===============
 ===============
 
-Version: 8.4.0
+Version: 8.5.0
 Author:  Matteo Pi (Bytecrafters)
-Date:    Nov. 22, 2023
+Date:    Nov. 23, 2023
 
 HOW TO WRITE A CUSTOM LOADER (applies to: Python branch)
 

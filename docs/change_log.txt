@@ -4,11 +4,30 @@ WAVE CRACKER
 ===============
 ===============
 
-Version: 8.4.0
+Version: 8.5.0
 Author:  Matteo Pi (Bytecrafters)
-Date:    Nov. 22, 2023
+Date:    Nov. 23, 2023
 
 CHANGE LOG (PYTHON)
+
+8.5.0 - Nov. 23, 2023
+---------------------
+Config file structure has changed (tooltip settings relocated).
+
+Added polynomial interpolation plots. Ref. command line arguments reference, '--poly-int'.
+
+If the output directory is not specified, one is created (in the current directory).
+
+Added a DEMO
+
+README.md improved
+Added a logo
+
+Now the initial diagnostic, if active, show also system's PATH
+
+Fixed an issue where the documents were not present in the PYPI package
+
+Other minor optimizations and fixes
 
 8.4.0 - Nov. 22, 2023
 ---------------------

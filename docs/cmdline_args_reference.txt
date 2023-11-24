@@ -4,13 +4,17 @@ WAVE CRACKER
 ===============
 ===============
 
-Version: 8.4.0
+Version: 8.5.0
 Author:  Matteo Pi (Bytecrafters)
-Date:    Nov. 22, 2023
+Date:    Nov. 23, 2023
 
 COMMAND LINE ARGUMENTS REFERENCE (PYTHON)
 
 REM --conf <path to configuration file> to override the configuration file path
+
+NEW in 8.5.0 --poly-int <int>:float,float [<int>:float,float] [<int>:float,float] ...
+             For all the specified intervals (float,float), a plot will be created with polynomial interpolation of degree <int>.
+			 eg: 4:-0.1,0.1 (means: we want a degree-4 polyin. interpolation for the signal's time interval [-0.1,0.1])
 
 NEW in 8.2.0 --multitab-ui: suppressed (it was introduced in 7.1.0). Now UI is multitabbed by default.
              And with new --simple-ui (default: False) you can enable the old one, singletabbed

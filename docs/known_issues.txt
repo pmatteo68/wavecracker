@@ -4,9 +4,9 @@ WAVE CRACKER
 ===============
 ===============
 
-Version: 8.4.0
+Version: 8.5.0
 Author:  Matteo Pi (Bytecrafters)
-Date:    Nov. 22, 2023
+Date:    Nov. 23, 2023
 
 KNOWN ISSUES (PYTHON)
 =====================
@@ -401,4 +401,9 @@ This message - or alike - shows up if the output directory is not accessible.
 output directory (.\output_1) does not exist
 [2023-11-19 21:44:20,284][MainThread][ERROR] Fourier Transform output data cannot be saved,
 output directory (.\output_1) does not exist
+
+PYTHON-0032
+-----------
+[WARNING] [cs1][Channel1] Polyfit #2: No interpolation possible (empty window)
+Happens when we try to add interpolation to an interval that is not covered by the sample. It's normal, and harmless.
 

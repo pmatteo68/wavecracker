@@ -4,13 +4,15 @@ WAVE CRACKER
 ===============
 ===============
 
-Version: 8.5.0
-Author:  Matteo Pi (Bytecrafters)
-Date:    Nov. 23, 2023
+Version: 8.6.0
+Author:  Matteo Pi.
+Date:    Dec. 11, 2023
 
 COMMAND LINE ARGUMENTS REFERENCE (PYTHON)
 
 REM --conf <path to configuration file> to override the configuration file path
+
+NEW in 8.6.0 --include-inst-freq (to add the instantaneous frequency plot)
 
 NEW in 8.5.0 --poly-int <int>:float,float [<int>:float,float] [<int>:float,float] ...
              For all the specified intervals (float,float), a plot will be created with polynomial interpolation of degree <int>.
@@ -23,7 +25,7 @@ NEW in 8.2.0 --dedicated-tab, allows to place, in the multitab UI, a plot in a D
 Eg: with --dedicated-tab wvlet 3dspctg
 you would have these two plots (wavelet transform and 3D spectrogram) each of them in a single tab, all by themselves.
 Even if the tab grid is configured as a holder for 2x2 (4 total) plots.
-List of possible value is: orig, ft, qq, psd, hist, ft-phase, wvlet, 3dspctg, spctg
+List of possible values is: orig, if, ft, qq, psd, hist, ft-phase, wvlet, 3dspctg, spctg
 
 REM This affects how many images are saved to disk, if one per plot, etc.
 REM new in 2.6.0 --plot-out (If multitab UI is active: none, multi (default - defaulted inside the code, 'save_plot' function)

@@ -4,14 +4,21 @@ WAVE CRACKER
 ===============
 ===============
 
-Version: 8.5.0
-Author:  Matteo Pi (Bytecrafters)
-Date:    Nov. 23, 2023
+Version: 8.6.0
+Author:  Matteo Pi.
+Date:    Dec. 11, 2023
 
 CHANGE LOG (PYTHON)
 
+Eliminated references to 'bytecr ....' as it was already in use on the web
+
+8.6.0 - Dec. 11, 2023
+---------------------
+Now possible to add the instantaneous frequency plot (--include-inst-freq)
+
 8.5.0 - Nov. 23, 2023
 ---------------------
+
 Config file structure has changed (tooltip settings relocated).
 
 Added polynomial interpolation plots. Ref. command line arguments reference, '--poly-int'.
@@ -31,7 +38,7 @@ Other minor optimizations and fixes
 
 8.4.0 - Nov. 22, 2023
 ---------------------
-PYPI-renamed to https://pypi.org/project/wavecracker (formerly it was https://pypi.org/project/bytecrafters)
+PYPI-renamed to https://pypi.org/project/wavecracker (formerly it was https://pypi.org/project/<something else>)
 
 8.3.0 - Nov. 21, 2023
 ---------------------
@@ -66,8 +73,8 @@ All docs now in english
 
 8.1.0 - Nov. 19, 2023
 ---------------------
-Made available on https://pypi.org/project/bytecrafters/8.1.1
-(pip install bytecrafters)
+Made available on https://pypi.org/project/<something>/8.1.1
+(pip install <something>)
 
 7.2.1 - Nov. 19, 2023
 ---------------------

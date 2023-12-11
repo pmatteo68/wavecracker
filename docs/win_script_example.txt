@@ -4,9 +4,9 @@ REM WAVE CRACKER
 REM ===============
 REM ===============
 
-REM Version: 8.5.0
-REM Author:  Matteo Pi (Bytecrafters)
-REM Date:    Nov. 23, 2023
+REM Version: 8.6.0
+REM Author:  Matteo Pi.
+REM Date:    Dec. 11, 2023
 
 REM INVOCATION SCRIPT EXAMPLE (PYTHON)
 

@@ -4,13 +4,17 @@ WAVE CRACKER
 ===============
 ===============
 
-Version: 8.6.0
+Version: 8.7.0
 Author:  Matteo Pi.
-Date:    Dec. 11, 2023
+Date:    Dec. 12, 2023
 
 CHANGE LOG (PYTHON)
 
 Eliminated references to 'bytecr ....' as it was already in use on the web
+
+8.7.0 - Dec. 12, 2023
+---------------------
+Added toolbar in Multi-tabbed UI, in each tab (same that was available with the old single-canvas UI)
 
 8.6.0 - Dec. 11, 2023
 ---------------------

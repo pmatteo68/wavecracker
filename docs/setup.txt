@@ -4,9 +4,9 @@ WAVE CRACKER
 ===============
 ===============
 
-Version: 8.6.0
+Version: 9.1.1
 Author:  Matteo Pi.
-Date:    Dec. 11, 2023
+Date:    Aug. 13, 2023
 
 SETUP INSTRUCTIONS (PYTHON)
 
@@ -24,7 +24,7 @@ The tool can be installed from PYPI repository, or, if you have the zip file, di
 
 SETUP PRELIMINARIES
 ===================
-Install Python >=3.7 (recommended: > 3.8 and < 3.12, ref. Appendixes B and C).
+Install Python >=3.7 (recommended: > 3.8, ref. Appendix B).
 Do not add Python to system path.
 Python can be downloaded at: https://www.python.org/downloads.
 
@@ -137,12 +137,3 @@ Ref. known issue PYTHON-0020 (addressed).
 Python < 3.7:
 -------------
 No test will be carried out. There is no plan to support 3.7 or lower.
-
-
-APPENDIX C - SUPPORT FOR PYTHON 3.12.0 OR UPPER
-===============================================
-
-Python 3.12.x:
------------
-pip install PyWavelet will FAIL, ref. known issue PYTHON-0009.
-Can be fixed only by the provider of the library.

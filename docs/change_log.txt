@@ -4,13 +4,21 @@ WAVE CRACKER
 ===============
 ===============
 
-Version: 8.7.0
+Version: 9.1.1
 Author:  Matteo Pi.
-Date:    Dec. 12, 2023
+Date:    Aug. 13, 2024
 
 CHANGE LOG (PYTHON)
 
-Eliminated references to 'bytecr ....' as it was already in use on the web
+9.1.1 - Aug. 13, 2024
+---------------------
+Addressed trivial bug in the common_util script
+
+9.1.0 - Aug. 13, 2024
+---------------------
+Addressed incompatibility with Python v. 3.12
+Solved a bug which occurred with the demo, if it was executed in a virtual env.
+Tested correct functionality also with ffmpeg v7.0.2
 
 8.7.0 - Dec. 12, 2023
 ---------------------
@@ -18,6 +26,7 @@ Added toolbar in Multi-tabbed UI, in each tab (same that was available with the 
 
 8.6.0 - Dec. 11, 2023
 ---------------------
+Eliminated references to 'bytecr ....' as it was already in use on the web
 Now possible to add the instantaneous frequency plot (--include-inst-freq)
 
 8.5.0 - Nov. 23, 2023

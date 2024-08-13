@@ -4,9 +4,9 @@ WAVE CRACKER
 ===============
 ===============
 
-Version: 8.6.0
+Version: 9.1.1
 Author:  Matteo Pi.
-Date:    Dec. 11, 2023
+Date:    Aug. 13, 2023
 
 KNOWN ISSUES (PYTHON)
 =====================
@@ -144,6 +144,8 @@ note: This error originates from a subprocess, and is likely not a problem with 
 CONCLUSION 8 Nov. 2023: <python home>\Lib\pkgutil.py  'ImpImporter', 'ImpLoader' are not present in 3.1.2
 This is a hard issue, as it can be fixed only by the provider of the library.
 Simply do NOT use this tool with Python 3.12.x (or, equivalently, use it if you don't need wavelet transform).
+
+Note, also, that with 3.12.5 the problem seems disappeared
 
 Related:
  - PYTHON-0017 (WMV loader not working on 3.1.2)
@@ -406,4 +408,9 @@ PYTHON-0032
 -----------
 [WARNING] [cs1][Channel1] Polyfit #2: No interpolation possible (empty window)
 Happens when we try to add interpolation to an interval that is not covered by the sample. It's normal, and harmless.
+
+PYTHON-0033
+-----------
+The demo would not work if launched from within a virtual environment, if the default environment has not the needed dependencies.
+Fixed in: 9.1.0
 
